@@ -14,9 +14,13 @@ function calculate() {
 try { 
 const result = eval(expression);
 document.getElementById('result').value = result;
-exporession = '';
+expression = '';
 } catch (error) { 
     document.getElementById('result').value = 'Error';
     expression = '';
  } 
+
+ function clear() { 
+    expression= '';
+    document.getElement
 }
