@@ -19,7 +19,7 @@ expression = '';
     document.getElementById('result').value = 'Error';
     expression = '';
  } 
-
+}
  function clear() { 
     expression= '';
     document.getElement
